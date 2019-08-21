@@ -6,6 +6,7 @@ import Disbelief from './Disbelief'
 import Eating from './Eating'
 import Grimace from './Grimace'
 import Sad from './Sad'
+import Open from './Open'
 import ScreamOpen from './ScreamOpen'
 import Serious from './Serious'
 import Smile from './Smile'
@@ -30,6 +31,7 @@ export default class Mouth extends React.Component {
         <Tongue />
         <Twinkle />
         <Vomit />
+        <Open />
       </Selector>
     )
   }

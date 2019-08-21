@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -20,6 +20,7 @@ var Disbelief_1 = require("./Disbelief");
 var Eating_1 = require("./Eating");
 var Grimace_1 = require("./Grimace");
 var Sad_1 = require("./Sad");
+var Open_1 = require("./Open");
 var ScreamOpen_1 = require("./ScreamOpen");
 var Serious_1 = require("./Serious");
 var Smile_1 = require("./Smile");
@@ -45,7 +46,8 @@ var Mouth = /** @class */ (function (_super) {
             React.createElement(Smile_1.default, null),
             React.createElement(Tongue_1.default, null),
             React.createElement(Twinkle_1.default, null),
-            React.createElement(Vomit_1.default, null)));
+            React.createElement(Vomit_1.default, null),
+            React.createElement(Open_1.default, null)));
     };
     return Mouth;
 }(React.Component));
