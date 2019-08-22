@@ -7,7 +7,7 @@ export default class Open extends React.Component {
     return (
       <g
         id='Mouth/Open'
-        transform='translate(-40.000000, -15.000000)'
+        transform='translate(2.000000, 52.000000)'
         fillOpacity='0.699999988'
         fill='#000000'>
         <circle id="Oval" cx="54" cy="29" r="14"></circle>
@@ -15,5 +15,3 @@ export default class Open extends React.Component {
     )
   }
 }
-
-

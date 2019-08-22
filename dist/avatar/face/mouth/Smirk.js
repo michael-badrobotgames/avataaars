@@ -20,7 +20,7 @@ var Smirk = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Smirk.prototype.render = function () {
-        return (React.createElement("g", { id: 'Mouth/Smirk', transform: 'translate(-36.000000, -13.000000)', fillOpacity: '0.599999964', fillRule: 'nonzero', fill: '#000000' },
+        return (React.createElement("g", { id: 'Mouth/Smirk', transform: 'translate(2.000000, 52.000000)', fillOpacity: '0.599999964', fillRule: 'nonzero', fill: '#000000' },
             React.createElement("path", { d: 'M39.1367188,23.5 C44.4440918,24.5437012 46.1581544,24.3605957 54,24.3605957 C61.8418456,24.3605957 65.739502,21.3476562 67.3430176,16 C67.6726169,14.9008005 68.1066895,13.5812988 66,14 C63.8933105,14.4187012 64.5703125,20.5527344 55.7563477,21.5527344 C46.9423828,22.5527344 41.7158203,21.1638184 39.1367187,20.6289062 C36.5576172,20.0939941 35.9114872,22.8657544 39.1367188,23.5 Z', id: 'Mouth' })));
     };
     Smirk.optionValue = 'Smirk';

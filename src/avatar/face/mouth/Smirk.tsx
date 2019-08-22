@@ -7,7 +7,7 @@ export default class Smirk extends React.Component {
     return (
       <g
         id='Mouth/Smirk'
-        transform='translate(-36.000000, -13.000000)'
+        transform='translate(2.000000, 52.000000)'
         fillOpacity='0.599999964'
         fillRule='nonzero'
         fill='#000000'>
