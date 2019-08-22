@@ -10,6 +10,7 @@ import Open from './Open'
 import ScreamOpen from './ScreamOpen'
 import Serious from './Serious'
 import Smile from './Smile'
+import Smirk from './Smirk'
 import Tongue from './Tongue'
 import Twinkle from './Twinkle'
 import Vomit from './Vomit'
@@ -28,6 +29,7 @@ export default class Mouth extends React.Component {
         <ScreamOpen />
         <Serious />
         <Smile />
+        <Smirk />
         <Tongue />
         <Twinkle />
         <Vomit />

@@ -24,6 +24,7 @@ var Open_1 = require("./Open");
 var ScreamOpen_1 = require("./ScreamOpen");
 var Serious_1 = require("./Serious");
 var Smile_1 = require("./Smile");
+var Smirk_1 = require("./Smirk");
 var Tongue_1 = require("./Tongue");
 var Twinkle_1 = require("./Twinkle");
 var Vomit_1 = require("./Vomit");
@@ -44,6 +45,7 @@ var Mouth = /** @class */ (function (_super) {
             React.createElement(ScreamOpen_1.default, null),
             React.createElement(Serious_1.default, null),
             React.createElement(Smile_1.default, null),
+            React.createElement(Smirk_1.default, null),
             React.createElement(Tongue_1.default, null),
             React.createElement(Twinkle_1.default, null),
             React.createElement(Vomit_1.default, null),
