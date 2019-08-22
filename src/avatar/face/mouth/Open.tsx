@@ -10,7 +10,7 @@ export default class Open extends React.Component {
         transform='translate(2.000000, 52.000000)'
         fillOpacity='0.699999988'
         fill='#000000'>
-        <circle id="Oval" cx="54" cy="29" r="14"></circle>
+        <circle id="Oval" cx="54" cy="27" r="14"></circle>
       </g>
     )
   }

@@ -21,7 +21,7 @@ var Open = /** @class */ (function (_super) {
     }
     Open.prototype.render = function () {
         return (React.createElement("g", { id: 'Mouth/Open', transform: 'translate(2.000000, 52.000000)', fillOpacity: '0.699999988', fill: '#000000' },
-            React.createElement("circle", { id: "Oval", cx: "54", cy: "29", r: "14" })));
+            React.createElement("circle", { id: "Oval", cx: "54", cy: "27", r: "14" })));
     };
     Open.optionValue = 'Open';
     return Open;
