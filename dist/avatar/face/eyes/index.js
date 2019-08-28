@@ -16,6 +16,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 var Close_1 = require("./Close");
 var Cry_1 = require("./Cry");
+var VeryCry_1 = require("./VeryCry");
 var Default_1 = require("./Default");
 var Dizzy_1 = require("./Dizzy");
 var EyeRoll_1 = require("./EyeRoll");
@@ -36,6 +37,7 @@ var Eyes = /** @class */ (function (_super) {
         return (React.createElement(options_1.Selector, { defaultOption: Default_1.default, option: options_1.EyesOption },
             React.createElement(Close_1.default, null),
             React.createElement(Cry_1.default, null),
+            React.createElement(VeryCry_1.default, null),
             React.createElement(Default_1.default, null),
             React.createElement(Dizzy_1.default, null),
             React.createElement(EyeRoll_1.default, null),

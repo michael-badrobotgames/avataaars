@@ -2,6 +2,7 @@ import * as React from 'react'
 
 import Close from './Close'
 import Cry from './Cry'
+import VeryCry from './VeryCry'
 import Default from './Default'
 import Dizzy from './Dizzy'
 import EyeRoll from './EyeRoll'
@@ -20,6 +21,7 @@ export default class Eyes extends React.Component {
       <Selector defaultOption={Default} option={EyesOption}>
         <Close />
         <Cry />
+        <VeryCry />
         <Default />
         <Dizzy />
         <EyeRoll />
