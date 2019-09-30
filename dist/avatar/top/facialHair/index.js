@@ -14,6 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
+var Goatee_1 = require("./Goatee");
 var BeardLight_1 = require("./BeardLight");
 var BeardMajestic_1 = require("./BeardMajestic");
 var BeardMedium_1 = require("./BeardMedium");
@@ -31,6 +32,7 @@ var FacialHair = /** @class */ (function (_super) {
             React.createElement(Blank_1.default, null),
             React.createElement(BeardMedium_1.default, null),
             React.createElement(BeardLight_1.default, null),
+            React.createElement(Goatee_1.default, null),
             React.createElement(BeardMajestic_1.default, null),
             React.createElement(MoustacheFancy_1.default, null),
             React.createElement(MoustacheMagnum_1.default, null)));
