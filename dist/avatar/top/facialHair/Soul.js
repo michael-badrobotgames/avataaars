@@ -28,7 +28,7 @@ var Goatee = /** @class */ (function (_super) {
         var _a = this, mask1 = _a.mask1, path1 = _a.path1;
         return (React.createElement("g", { id: 'Facial-Hair/Soul', transform: 'translate(49.000000, 72.000000)' },
             React.createElement("defs", null,
-                React.createElement("path", { d: 'd="M74.9987743,109.723371 C74.9987743,115 74.9987743,115 83.9999331,115 C93.0010919,115 93.577188,115 93.577188,109.723371 C93.577188,104.446742 89.4491427,95.5190691 83.9999331,95.5190691 C78.5507235,95.5190691 74.9987743,104.446742 74.9987743,109.723371 Z', id: path1 })),
+                React.createElement("path", { d: 'M74.9987743,109.723371 C74.9987743,115 74.9987743,115 83.9999331,115 C93.0010919,115 93.577188,115 93.577188,109.723371 C93.577188,104.446742 89.4491427,95.5190691 83.9999331,95.5190691 C78.5507235,95.5190691 74.9987743,104.446742 74.9987743,109.723371 Z', id: path1 })),
             React.createElement("mask", { id: mask1, fill: 'white' },
                 React.createElement("use", { xlinkHref: '#' + path1 })),
             React.createElement("use", { id: 'Soul', fill: '#331B0C', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
