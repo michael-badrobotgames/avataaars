@@ -13,6 +13,7 @@ import LongHairFrida from './LongHairFrida'
 import LongHairFro from './LongHairFro'
 import LongHairFroBand from './LongHairFroBand'
 import LongHairMiaWallace from './LongHairMiaWallace'
+import LongHairHank from './LongHairHank'
 import LongHairNotTooLong from './LongHairNotTooLong'
 import LongHairShavedSides from './LongHairShavedSides'
 import LongHairStraight from './LongHairStraight'
@@ -63,6 +64,7 @@ export default class Top extends React.Component {
         <LongHairNotTooLong>{children}</LongHairNotTooLong>
         <LongHairShavedSides>{children}</LongHairShavedSides>
         <LongHairMiaWallace>{children}</LongHairMiaWallace>
+        <LongHairHank>{children}</LongHairHank>
         <LongHairStraight>{children}</LongHairStraight>
         <LongHairStraight2>{children}</LongHairStraight2>
         <LongHairStraightStrand>{children}</LongHairStraightStrand>
