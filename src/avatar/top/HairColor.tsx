@@ -37,6 +37,7 @@ const PastelPink = makeColor('PastelPink', '#F59797')
 const Platinum = makeColor('Platinum', '#ECDCBF')
 const Red = makeColor('Red', '#C93305')
 const SilverGray = makeColor('SilverGray', '#E8E1E1')
+const DarkGray = makeColor('DarkGray', '#7F7F7F')
 
 export default class HairColor extends React.Component<Props> {
   render () {
@@ -52,6 +53,7 @@ export default class HairColor extends React.Component<Props> {
         <Platinum maskID={this.props.maskID} />
         <Red maskID={this.props.maskID} />
         <SilverGray maskID={this.props.maskID} />
+        <DarkGray maskID={this.props.maskID} />
       </Selector>
     )
   }

@@ -27,7 +27,6 @@ var LongHairFrida_1 = require("./LongHairFrida");
 var LongHairFro_1 = require("./LongHairFro");
 var LongHairFroBand_1 = require("./LongHairFroBand");
 var LongHairMiaWallace_1 = require("./LongHairMiaWallace");
-var LongHairHank_1 = require("./LongHairHank");
 var LongHairNotTooLong_1 = require("./LongHairNotTooLong");
 var LongHairShavedSides_1 = require("./LongHairShavedSides");
 var LongHairStraight_1 = require("./LongHairStraight");
@@ -80,7 +79,6 @@ var Top = /** @class */ (function (_super) {
             React.createElement(LongHairNotTooLong_1.default, null, children),
             React.createElement(LongHairShavedSides_1.default, null, children),
             React.createElement(LongHairMiaWallace_1.default, null, children),
-            React.createElement(LongHairHank_1.default, null, children),
             React.createElement(LongHairStraight_1.default, null, children),
             React.createElement(LongHairStraight2_1.default, null, children),
             React.createElement(LongHairStraightStrand_1.default, null, children),

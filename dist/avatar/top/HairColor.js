@@ -43,6 +43,7 @@ var PastelPink = makeColor('PastelPink', '#F59797');
 var Platinum = makeColor('Platinum', '#ECDCBF');
 var Red = makeColor('Red', '#C93305');
 var SilverGray = makeColor('SilverGray', '#E8E1E1');
+var DarkGray = makeColor('DarkGray', '#7F7F7F');
 var HairColor = /** @class */ (function (_super) {
     __extends(HairColor, _super);
     function HairColor() {
@@ -59,7 +60,8 @@ var HairColor = /** @class */ (function (_super) {
             React.createElement(PastelPink, { maskID: this.props.maskID }),
             React.createElement(Platinum, { maskID: this.props.maskID }),
             React.createElement(Red, { maskID: this.props.maskID }),
-            React.createElement(SilverGray, { maskID: this.props.maskID })));
+            React.createElement(SilverGray, { maskID: this.props.maskID }),
+            React.createElement(DarkGray, { maskID: this.props.maskID })));
     };
     return HairColor;
 }(React.Component));
